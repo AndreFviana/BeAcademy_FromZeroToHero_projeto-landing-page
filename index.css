@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&family=Inter:wght@100;300;700&family=Rubik+Vinyl&display=swap" "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&family=Inter:wght@100;300;700&family=Rubik+Vinyl&display=swap");
+
+:root {
+
+  font-family: 'Rubik Vinyl', cursive;
+  text-align: center;
+  padding: 10% 3.12rem;
+  margin: 1.25rem;
+  background: black;
+  border: 0.62rem solid rgb(158, 45, 45)
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif'
+
+}
+
+body .titulos h1 {
+  color: goldenrod;
+  padding: 3.12rem;
+  position: relative
+}
+
+body .titulos h2 {
+  color: red;
+}
+
+h6 {
+  color: white;
+}
+
+form {
+  width: 6rem 6rem;
+}
+
+button {
+  color: goldenrod;
+  font-size: 1.12rem;
+  border-color: yellow;
+  background-color: red;
+  text-emphasis-color: white;
+}
+
+.body p {
+  color: white;
+  font-size: 0.62rem;
+  padding: 0.43rem;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0.9rem;
+  align-items: center;
+}
+
+a {
+  color: rgb(81, 221, 53);
+  text-decoration: underline;
+
+}
+
+header img {
+  text-align: left;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 0.62rem;
+  border: 0.31rem solid goldenrod;
+  opacity: 1rem;
+}
+
+.img-footer {
+  width: 1.5rem;
+}
