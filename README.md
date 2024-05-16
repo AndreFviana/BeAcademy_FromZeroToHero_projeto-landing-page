@@ -1,3 +1,8 @@
+
+Houve uma repaginação do projeto, e ela está em andamento:
+<img src="./assents/img/depois-tdb-site.png" alt="imagem prévia do novo site">
+
+
 # BeAcademy_FromZeroToHero_ProjetoLandingPage
 
 Landing page como projeto final do Bootcamp de low code .
