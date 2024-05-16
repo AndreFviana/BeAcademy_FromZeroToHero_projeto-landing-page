@@ -1,6 +1,6 @@
 
 Houve uma repaginação do projeto, e ela está em andamento:
-<img src="./assents/img/depois-tdb-site.png" alt="imagem prévia do novo site">
+<img src="./assents/img/depois-tdb-site.png" alt="imagem prévia do novo site" title="imagem do site">
 
 
 # BeAcademy_FromZeroToHero_ProjetoLandingPage
