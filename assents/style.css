@@ -72,6 +72,6 @@ footer{
     background-color:var(--primary-color);
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding:5px;
 }
