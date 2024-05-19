@@ -10,19 +10,35 @@ font-family: "Poppins", sans-serif;
     --second-color: #daa520;
     --background-light: #fffafa;
     --text-color:#333333;
-    --border-color:#e0e0e0;
+    --border-color:#333333;
 }
 body{
     background-color: var(--background-light);
 }
 nav{
     background-color:var(--primary-color);
-    margin: auto;
+    margin: auto 0 2px;
     display: flex;
     justify-content: space-between;
     padding:5px;
     font-size: x-large;
+    border-radius: 10px;
 }
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: bold;
+    color:var(--text-color);
+    background-color: var(--second-color);
+    border:#333333 solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 60px;
+}
+
 nav 
 ul{
     display: flex;
@@ -47,6 +63,8 @@ section{
 }
 .card{
     text-align: center;
+    border:var(--border-color) solid;
+    border-radius: 10px ;
 }
 section 
 figure
@@ -57,9 +75,14 @@ img{
 main{
     text-align: center;
 }
+
 main 
 img{
     width:500px;
+    height: 400px;
+    margin: 5px;
+    border:#333333 solid;
+    border-radius: 10px;
 }
 img{
     border-radius: 10px ;
