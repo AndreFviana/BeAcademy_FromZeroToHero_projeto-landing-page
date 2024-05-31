@@ -90,6 +90,10 @@ section{
     border-radius: 10px;
     overflow: hidden;
 }
+.card:hover  {
+    transition: all 0.9s ease;
+    transform: scale(1.1) rotate(-5deg);
+    }
 .card
 img{
     width: 100%;
@@ -138,3 +142,6 @@ footer{
     justify-content: space-evenly;
     padding:5px;
 }
+
+
+
