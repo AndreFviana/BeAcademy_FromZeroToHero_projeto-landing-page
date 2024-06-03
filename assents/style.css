@@ -6,9 +6,10 @@ padding: 0;
 font-family: "Poppins", sans-serif;
 }
 :root{
-    --primary-color:#dc143c;
+    --primary-color:rgb(220, 20, 60);
     --second-color: #daa520;
     --background-light: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    --background-banner:linear-gradient(to bottom,rgb(255,188,13),rgb(255,188,13),rgb(255,255,153));
     --third-color:#333333;
     --background-second:rgb(255, 255, 255);
     --fourth-color:rgb(255, 188, 13);
@@ -71,8 +72,6 @@ nav{
     }
   }
  
- 
-  
 nav 
 ul{
     display: flex;
@@ -107,8 +106,8 @@ section{
 
 .card:hover  {
     transition: all 0.9s ease;
-    transform: scale(1.1) rotate(-5deg);
-    }
+    transform: scale(0.9) skew(1deg, 1deg);    
+}
 .card
 img{
     width: 100%;
@@ -123,8 +122,9 @@ img{
     object-fit: cover;
    
 }
+
 main{
-   
+    padding-top:80px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -132,13 +132,16 @@ main{
     width:99.1%;
     height: 100%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-   background-color: var(--fourth-color)
+    border-radius:5px;
+   background-image: var(--background-banner);
+   
 }
 main
 .btn-main{
   display: flex;
   justify-content: center;
-
+  position: relative;
+  transform: translate(45%,-155%);
 }
 .btn-main 
 .btn{
@@ -160,14 +163,13 @@ p{
 
 }
 footer{
-    background-color: var(--primary-color);
+    background:var(--primary-color);
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     padding:5px;
     width: 99%;
     border-radius: 10px;
-    box-shadow: 0 4px  rgba(0,0,0,0.2);
 
 }
 
