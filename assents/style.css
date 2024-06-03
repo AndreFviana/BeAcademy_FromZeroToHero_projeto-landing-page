@@ -10,11 +10,14 @@ font-family: "Poppins", sans-serif;
     --second-color: #daa520;
     --background-light: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
     --third-color:#333333;
+    --background-second:rgb(255, 255, 255);
+    --fourth-color:rgb(255, 188, 13);
    
 }
 body{
     background-image: var(--background-light);
 }
+
 nav{
     background-color:var(--primary-color);
     margin: auto 0 2px;
@@ -25,6 +28,10 @@ nav{
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 0 4px  rgba(0,0,0,0.2);
+    z-index:1;
+    position: fixed;
+    width: 99.1%;
+   
 }
 .btn{
     display: flex;
@@ -33,7 +40,7 @@ nav{
     font-size: small;
     font-weight: bold;
     color:var(--text-color);
-    background-color: var(--second-color);
+    background-color: var(--fourth-color);
     border:var(--third-color) solid;
     border-radius: 10px;
     padding: 5px;
@@ -42,6 +49,9 @@ nav{
     cursor: pointer;
     animation: btn-move 4s infinite;
 }
+
+
+
 @keyframes btn-move{
    
     50% {
@@ -59,8 +69,10 @@ nav{
     25% {
       transform: scale(1) rotate(5deg);
     }
- 
   }
+ 
+ 
+  
 nav 
 ul{
     display: flex;
@@ -83,13 +95,16 @@ section{
     margin:20px;
     gap: 30px;
 }
+
 .card{
+    animation: animationBlur 5s linear infinite;
     position: relative;
     width: 300px;
     height: 400px;
     border-radius: 10px;
     overflow: hidden;
 }
+
 .card:hover  {
     transition: all 0.9s ease;
     transform: scale(1.1) rotate(-5deg);
@@ -106,20 +121,28 @@ img{
     width:350px;
     height: 391px;
     object-fit: cover;
+   
 }
 main{
+   
     text-align: center;
     position: relative;
     overflow: hidden;
-    width:100%;
+    margin:5px;
+    width:99.1%;
     height: 100%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
+   background-color: var(--fourth-color)
 }
 main
 .btn-main{
   display: flex;
   justify-content: center;
+
+}
+.btn-main 
+.btn{
+    background-color: var(--background-second);
 }
 
 main 
@@ -128,7 +151,8 @@ img{
     max-width: 100%;
     margin: 5px;
     border:var(--third-color) solid;
-    border-radius: 10px;     
+    border-radius: 10px;    
+   
 }
 
 p{
@@ -136,12 +160,15 @@ p{
 
 }
 footer{
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     padding:5px;
-}
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px  rgba(0,0,0,0.2);
 
+}
 
 

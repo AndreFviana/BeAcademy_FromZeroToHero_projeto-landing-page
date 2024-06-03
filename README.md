@@ -9,7 +9,7 @@ Houve uma repaginação do projeto, e ela está em andamento:
 Landing page como projeto final do Bootcamp de low code .
 Trata-se de uma landing page para uma lanchonete do bairro onde moro, onde o objetivo foi vender um combo, montando o layout, botão e texto para que fosse alcançado o objetivo.
 
-[Veja aqui o site](https://elegant-nasturtium-0f9929.netlify.app/)
+[Veja a versão antiga aqui](https://elegant-nasturtium-0f9929.netlify.app/)
 
 
 Aqui, realizei a criação da página utilizando:
