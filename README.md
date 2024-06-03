@@ -1,6 +1,6 @@
 
 Houve uma repaginação do projeto, e ela está em andamento:
-<img src="./assents/img/tdb-atualizado.png" alt="imagem prévia do novo site" title="imagem do site">
+<img src="./assents/img/tdb-atualizado-3.png" alt="imagem prévia do novo site" title="imagem do site">
 <img src="./assents/img/tdb-atualizado-2.png" alt="imagem prévia do novo site" title="imagem do site">
 
 
