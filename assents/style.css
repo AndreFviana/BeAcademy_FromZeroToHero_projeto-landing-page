@@ -173,4 +173,27 @@ footer{
 
 }
 
+.carrosel{
+    overflow: hidden;
+    width: 80%;
+}
+.carousel-inner{
+    display:flex;
+    width: 200%;
+    animation: slide 12s infinite alternate-reverse;
+   
+}
+.carousel-item{
+    width: 33%;
+    flex-shrink:0;
+}
 
+@keyframes slide {
+    0%{transform: translateX(-5%);}
+    20%{transform:translateX(-20%);}
+    30%{transform:translateX(-30%);}
+    33%{transform:translateX(-50%);}
+    40%{transform:translateX(-60%);}
+    66%{transform:translateX(-70%);}
+    100%{transform:translateX(100%);}
+}
