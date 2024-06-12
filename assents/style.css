@@ -91,6 +91,7 @@ a {
 section{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin:20px;
     gap: 30px;
 }
@@ -112,6 +113,7 @@ section{
 img{
     width: 100%;
     height: 100%;
+   
 }
 
 section 
@@ -176,24 +178,26 @@ footer{
 .carrosel{
     overflow: hidden;
     width: 80%;
+    margin:auto auto;
+    box-shadow: inset 5px 0 10px -5px, inset -5px 0 10px -5px var(--third-color);
 }
 .carousel-inner{
     display:flex;
     width: 200%;
-    animation: slide 12s infinite alternate-reverse;
+    animation: slide 15s linear infinite ;
+    margin: 0;
+    padding: 0;
    
 }
 .carousel-item{
-    width: 33%;
+    width: calc(100%/6);
     flex-shrink:0;
+    margin: 0;
+    padding: 0;
+}
+@keyframes slide {
+    0%{transform: translateX(0);}
+    
+    100%{transform:translateX(-20%);}
 }
 
-@keyframes slide {
-    0%{transform: translateX(-5%);}
-    20%{transform:translateX(-20%);}
-    30%{transform:translateX(-30%);}
-    33%{transform:translateX(-50%);}
-    40%{transform:translateX(-60%);}
-    66%{transform:translateX(-70%);}
-    100%{transform:translateX(100%);}
-}
